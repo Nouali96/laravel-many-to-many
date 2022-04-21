@@ -22,6 +22,7 @@ export default {
       margin: 0;
       box-sizing: border-box;
   }
+
   .container_title{
     display: flex;
     height: 500px;
@@ -29,6 +30,7 @@ export default {
     justify-content: center;
     align-items: center;
   }
+  
   .box_button{
     display: flex;
     justify-content: center;
