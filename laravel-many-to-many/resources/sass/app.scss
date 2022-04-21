@@ -1,0 +1,28 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Bootstrap icon
+@import '~bootstrap-icons/font/bootstrap-icons';
+
+
+// resource/views/auth/login
+.ms_input_password_container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    .ms_eye{
+        position: absolute;
+        right: 1rem;
+        color: #000;
+         &:hover{
+             color: rgb(92, 92, 92);
+         }
+    }
+
+}
